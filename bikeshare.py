@@ -77,7 +77,7 @@ def load_data(city, month, day):
     df['Day of Week'] = df['Start Time'].dt.weekday_name
 
     if month != 'all':
-        months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
+        months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun']
         month = months.index(month) + 1
 
         df = df[df['Month'] == month]
