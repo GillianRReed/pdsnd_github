@@ -34,10 +34,10 @@ def get_filters():
     # TO DO: get user input for month (all, january, february, ... , june)
         month = input('Would you like to look at a specific month from January to June? Enter the first three letters of the month. If not, enter "all": ').lower()
         while True:
-            if month == 'jan' or month == 'feb' or month == 'mar' or month == 'apr' or month == 'may' or month == 'jun' or month == 'jul' or month == 'aug' or month == 'sep' or month == 'oct' or month == 'nov' or month == 'dec' or month == 'all':
+            if month == 'jan' or month == 'feb' or month == 'mar' or month == 'apr' or month == 'may' or month == 'jun' or month == 'all':
                 break
             else:
-                    month = input('Sorry! Please re-enter the first three letters of the month you would like to look at. If none, please enter "all": ').lower()
+                    month = input('Sorry! Please re-enter the first three letters of the month you would like to look at from January to June. If none, please enter "all": ').lower()
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
         day = input("Would you like to look at a specific day of the week? If not, enter 'none': ").lower()
