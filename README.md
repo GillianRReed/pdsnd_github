@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+2021/01/28
 
 ### Project Title
-Replace the Project Title
+Udacity GitHub Bikeshare Project
 
 ### Description
-Describe what your project is about and what it does
+Udacity Bikeshare Python Project is an interactive python script that allows users to interact with data from one of three cities of their choosing and calculates stats about ride times and user stats, for example.  
 
 ### Files used
-Include the files used
+bikeshare.py, chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Udacity, https://github.com/udacity/pdsnd_github
